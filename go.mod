@@ -1,4 +1,4 @@
-module github.com/SyNdicateFoundation/singproxy
+module github.com/IzomSoftware/singproxy
 
 go 1.25.0
 

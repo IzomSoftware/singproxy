@@ -1,6 +1,6 @@
 # Sing-Proxy: A Robust Go Proxy Client Library
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/SyNdicateFoundation/singproxy)](https://goreportcard.com/report/github.com/SyNdicateFoundation/singproxy)
+[![Go Report Card](https://goreportcard.com/badge/github.com/IzomSoftware/singproxy)](https://goreportcard.com/report/github.com/IzomSoftware/singproxy)
 
 Sing-Proxy is a high-level Go library designed to simplify connecting through various proxy protocols. Built as a
 wrapper around the powerful `sagernet/sing-box` core, its primary feature is its exceptional ability to parse and handle
@@ -34,7 +34,7 @@ Sing-Proxy is built to handle the mess for you.
 ## Installation
 
 ```sh
-go get github.com/SyNdicateFoundation/singproxy
+go get github.com/IzomSoftware/singproxy
 ```
 
 Use following tags for building you binary
@@ -59,7 +59,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/SyNdicateFoundation/singproxy"
+	"github.com/IzomSoftware/singproxy"
 )
 
 func main() {
@@ -121,7 +121,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/SyNdicateFoundation/singproxy"
+	"github.com/IzomSoftware/singproxy"
 )
 
 // TestResult holds the outcome of a single proxy test.
